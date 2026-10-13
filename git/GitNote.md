@@ -139,6 +139,14 @@
 
 - Đẩy dữ liệu lên kho lưu trữ từ xa và ghi đè (ghi đè tất cả commit trên kho lưu trữ từ xa thành commit trên máy cục bộ): git push --force origin master
 
+7. ## Stash
+
+- git stash:
+    - Đưa những thay đổi hiện tại chưa commit vào vùng stash, thư mục làm việc quay về trạng thái của commit trước đó
+    - Chỉ đưa những thay đổi của các file đã có sẵn vào stash, không đưa những file mới tạo vào stash
+- git stash -u: đưa tất cả những thay đổi (kể cả file mới tạo) vào stash
+- git stash pop: lấy những thay đổi ở đầu stash ra
+
 # 4 vùng làm việc
 1. Vùng làm việc (Working directory) là vùng người dùng thực hiện code
 
