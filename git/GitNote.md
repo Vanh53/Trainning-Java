@@ -79,6 +79,8 @@
 - Xem danh sách nhánh: git branch
     <br>
     ![alt text](image/image-16.png)
+- git --no-pager branch:
+    - Hiển thị toàn bộ danh sách branch trong trường hợp có nhiều branch (lệnh git branch không hiển thị hết)
 
 - Đưa thư mục làm việc (Working directory) trở về trạng thái của 1 commit nhất định: git checkout <revision>
     - Ví dụ: git checkout 373a95c
